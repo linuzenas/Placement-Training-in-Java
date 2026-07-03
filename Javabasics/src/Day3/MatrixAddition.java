@@ -1,25 +1,51 @@
 package Day3;
 
+import java.util.Scanner;
+
 public class MatrixAddition {
 
     public static void main(String[] args) {
 
-        int[][] matrix1 = {
-                {1, 2, 3},
-                {4, 5, 6}
-        };
+        Scanner sc = new Scanner(System.in);
 
-        int[][] matrix2 = {
-                {7, 8, 9},
-                {1, 2, 3}
-        };
+        System.out.print("Enter number of rows: ");
+        int rows = sc.nextInt();
 
-        int[][] sum = new int[2][3];
+        System.out.print("Enter number of columns: ");
+        int cols = sc.nextInt();
 
-        // Matrix Addition
-        for (int i = 0; i < matrix1.length; i++) {
+        int[][] matrix1 = new int[rows][cols];
+        int[][] matrix2 = new int[rows][cols];
+        int[][] sum = new int[rows][cols];
 
-            for (int j = 0; j < matrix1[i].length; j++) {
+        // Input Matrix 1
+        System.out.println("\nEnter Matrix 1:");
+
+        for (int i = 0; i < rows; i++) {
+
+            for (int j = 0; j < cols; j++) {
+
+                matrix1[i][j] = sc.nextInt();
+
+            }
+        }
+
+        // Input Matrix 2
+        System.out.println("\nEnter Matrix 2:");
+
+        for (int i = 0; i < rows; i++) {
+
+            for (int j = 0; j < cols; j++) {
+
+                matrix2[i][j] = sc.nextInt();
+
+            }
+        }
+
+        // Addition
+        for (int i = 0; i < rows; i++) {
+
+            for (int j = 0; j < cols; j++) {
 
                 sum[i][j] = matrix1[i][j] + matrix2[i][j];
 
@@ -27,11 +53,11 @@ public class MatrixAddition {
         }
 
         // Display Result
-        System.out.println("Resultant Matrix:");
+        System.out.println("\nResultant Matrix:");
 
-        for (int i = 0; i < sum.length; i++) {
+        for (int i = 0; i < rows; i++) {
 
-            for (int j = 0; j < sum[i].length; j++) {
+            for (int j = 0; j < cols; j++) {
 
                 System.out.print(sum[i][j] + " ");
 
@@ -40,5 +66,6 @@ public class MatrixAddition {
             System.out.println();
         }
 
+        sc.close();
     }
 }
