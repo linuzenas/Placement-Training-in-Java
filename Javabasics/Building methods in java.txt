@@ -1,0 +1,89 @@
+Building methods in java:
+=========================
+JAVA STRING METHODS
+=========================
+
+1. charAt(int index)
+   - Returns the character at the specified index.
+
+2. compareTo(String str)
+   - Compares two strings lexicographically (case-sensitive).
+
+3. compareToIgnoreCase(String str)
+   - Compares two strings lexicographically, ignoring case.
+
+4. concat(String str)
+   - Concatenates (joins) two strings.
+
+5. contains(CharSequence s)
+   - Checks whether the string contains the specified sequence.
+
+6. contentEquals(CharSequence cs)
+   - Checks whether the string content equals the specified character sequence.
+
+7. copyValueOf(char[] data)
+   - Creates a String from a character array.
+
+8. endsWith(String suffix)
+   - Checks whether the string ends with the specified suffix.
+
+9. equals(Object obj)
+   - Checks whether two strings are exactly equal.
+
+10. equalsIgnoreCase(String str)
+    - Checks equality while ignoring case differences.
+
+11. indexOf()
+    - Returns the index of the first occurrence of a character or substring.
+
+12. isEmpty()
+    - Checks whether the string is empty.
+
+13. join(CharSequence delimiter, CharSequence... elements)
+    - Joins multiple strings using a delimiter.
+
+14. lastIndexOf()
+    - Returns the index of the last occurrence of a character or substring.
+
+15. matches(String regex)
+    - Checks whether the string matches a regular expression.
+
+16. replace()
+    - Replaces characters or substrings.
+
+17. replaceAll(String regex, String replacement)
+    - Replaces all substrings matching a regular expression.
+
+18. replaceFirst(String regex, String replacement)
+    - Replaces only the first substring matching a regular expression.
+
+19. split(String regex)
+    - Splits the string into an array using a delimiter or regular expression.
+
+20. startsWith(String prefix)
+    - Checks whether the string starts with the specified prefix.
+
+21. subSequence(int beginIndex, int endIndex)
+    - Returns a portion of the string as a CharSequence.
+
+22. substring(int beginIndex)
+    substring(int beginIndex, int endIndex)
+    - Returns a portion of the string.
+
+23. toCharArray()
+    - Converts the string into a character array.
+
+24. toLowerCase()
+    - Converts all characters to lowercase.
+
+25. toUpperCase()
+    - Converts all characters to uppercase.
+
+26. toString()
+    - Returns the string itself.
+
+27. trim()
+    - Removes leading and trailing whitespace.
+
+28. valueOf()
+    - Converts different data types into a String.
