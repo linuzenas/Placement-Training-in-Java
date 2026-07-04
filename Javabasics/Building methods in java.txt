@@ -87,3 +87,7 @@ JAVA STRING METHODS
 
 28. valueOf()
     - Converts different data types into a String.
+
+
+
+Class is a an user defined blueprint or template used to create an object at groups of datafeilds(attributes) and actions(methods) into a logical unit
