@@ -92,10 +92,13 @@ JAVA STRING METHODS
 
 Class is a an user defined blueprint or template used to create an object at groups of datafeilds(attributes) and actions(methods) into a logical unit
 
-
+Abstraction:
 Abstraction is the process of hiding internal implementation details and displaying only essential functionality to the user.
 three rules
 1. Have to use the abstract keyword to create the class
 2. abstraction class is a restricted class that can't be used to create objects. I can access it. It must be inherited from another class
 3. Abstract methods can only be used in an abstract class, and it doesn't have a body. The body is provided by the subclass.
+
+Encapsulation:
+The encapsulation is a concept of binding the data(variable) and the method operating on that data into a single unit typically a class it restricted direct internal access to an object to internal state to product the data and prevent unauthentication modifications
 
