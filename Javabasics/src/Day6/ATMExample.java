@@ -66,7 +66,7 @@ public class ATMExample {
 
         do {
 
-            System.out.println("\n====== ATM MENU ======");
+            System.out.println("\n====== ZENAS ATM MENU ======");
             System.out.println("1. Account Details");
             System.out.println("2. Deposit");
             System.out.println("3. Withdraw");
