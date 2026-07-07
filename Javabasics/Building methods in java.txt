@@ -90,7 +90,7 @@ JAVA STRING METHODS
 
 
 
-Class is a an user defined blueprint or template used to create an object at groups of datafeilds(attributes) and actions(methods) into a logical unit
+Class is a an user defined blueprint or template used to create an object at groups of datafields(attributes) and actions(methods) into a logical unit
 
 Abstraction:
 Abstraction is the process of hiding internal implementation details and displaying only essential functionality to the user.
@@ -102,3 +102,6 @@ three rules
 Encapsulation:
 The encapsulation is a concept of binding the data(variable) and the method operating on that data into a single unit typically a class it restricted direct internal access to an object to internal state to product the data and prevent unauthentication modifications
 
+
+Inheritance: 
+Inheritance that allows a new class to acquire the fields(attributes) and methods of existing class 
