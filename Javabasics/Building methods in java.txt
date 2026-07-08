@@ -105,3 +105,9 @@ The encapsulation is a concept of binding the data(variable) and the method oper
 
 Inheritance: 
 Inheritance that allows a new class to acquire the fields(attributes) and methods of existing class 
+
+Polymorphism:
+Polymorphism means “many forms”. In Java, it allows the same method name to behave differently depending on:
+
+The type of arguments passed (compile time)
+The actual object referenced at runtime (runtime dispatch)
