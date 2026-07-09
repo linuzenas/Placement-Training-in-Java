@@ -111,3 +111,12 @@ Polymorphism means “many forms”. In Java, it allows the same method name to 
 
 The type of arguments passed (compile time)
 The actual object referenced at runtime (runtime dispatch)
+
+
+hashset 
+haspmap 
+arraylist
+lnkedhashset
+
+
+
