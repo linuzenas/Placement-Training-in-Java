@@ -118,5 +118,9 @@ haspmap
 arraylist
 lnkedhashset
 
-
+JDBC:
+Java Database Connectivity
+- Comes with JDK(since 1.1)
+- provide access to a relational database
+- JDBC package: set of java classes that facilitate this access(java.sql.*)
 
