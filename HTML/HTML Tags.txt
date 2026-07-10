@@ -1,0 +1,155 @@
+=========================
+HTML TAGS (In Learning Order)
+=========================
+
+1. <!DOCTYPE html>
+2. <html>
+3. <head>
+4. <title>
+5. <meta>
+6. <link>
+7. <body>
+
+------------------------------------
+TEXT FORMATTING TAGS
+------------------------------------
+
+8. <h1> to <h6>
+9. <p>
+10. <br>
+11. <hr>
+12. <b>
+13. <i>
+14. <small>
+15. <mark>
+16. <span>
+17. <div>
+18. <font> (Deprecated)
+19. <abbr>
+20. <q>
+
+------------------------------------
+LINKS & IMAGES
+------------------------------------
+
+21. <a>
+22. <img>
+23. alt Attribute
+24. <picture>
+25. <source>
+26. <map>
+
+------------------------------------
+LIST TAGS
+------------------------------------
+
+27. <ol>
+28. <ul>
+29. <li>
+30. <menu>
+
+------------------------------------
+TABLE TAGS
+------------------------------------
+
+31. <table>
+32. <caption>
+33. <tr>
+34. <th>
+35. <td>
+
+------------------------------------
+FORM TAGS
+------------------------------------
+
+36. <form>
+37. <label>
+38. <input>
+39. <textarea>
+40. <select>
+41. <option>
+42. <datalist>
+
+------------------------------------
+LAYOUT TAGS (HTML5)
+------------------------------------
+
+43. <header>
+44. <nav>
+45. <footer>
+
+------------------------------------
+MULTIMEDIA TAGS
+------------------------------------
+
+46. <audio>
+47. <source>
+
+------------------------------------
+END OF HTML DOCUMENT
+------------------------------------
+
+48. </body>
+49. </html>
+
+=========================
+IMPORTANT ATTRIBUTES
+=========================
+
+1. href
+2. src
+3. alt
+4. id
+5. class
+6. style
+7. width
+8. height
+9. type
+10. value
+11. placeholder
+12. name
+13. for
+14. action
+15. method
+16. selected
+17. checked
+18. required
+19. readonly
+20. disabled
+
+=========================
+MOST IMPORTANT TAGS FOR BEGINNERS
+=========================
+
+✓ html
+✓ head
+✓ title
+✓ meta
+✓ body
+✓ h1-h6
+✓ p
+✓ br
+✓ hr
+✓ a
+✓ img
+✓ div
+✓ span
+✓ ol
+✓ ul
+✓ li
+✓ table
+✓ tr
+✓ th
+✓ td
+✓ form
+✓ label
+✓ input
+✓ textarea
+✓ select
+✓ option
+✓ button
+✓ header
+✓ nav
+✓ footer
+✓ audio
+✓ source
