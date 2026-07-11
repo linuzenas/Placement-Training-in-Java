@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two Tables Side by Side</title>
+
+    <style>
+
+        .container{
+            display:flex;
+            gap:30px;
+        }
+
+        table{
+            border-collapse:collapse;
+            width:300px;
+        }
+
+        th,td{
+            border:1px solid black;
+            padding:10px;
+            text-align:center;
+        }
+
+        th{
+            background-color:lightgray;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- First Table -->
+
+    <table>
+
+        <caption><b>Student Details</b></caption>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Linu</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Paul</td>
+        </tr>
+
+    </table>
+
+
+    <!-- Second Table -->
+
+    <table>
+
+        <caption><b>Marks</b></caption>
+
+        <tr>
+            <th>ID</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>95</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>90</td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>
